@@ -1,0 +1,21 @@
+,Methylator,nf-core/methylseq,ARPEGGIO,MethylStar,MethylC-analyzer,Bycicle
+Platform independent,T,T,F,T,F,T
+Self-contained,T,T,T,T,F,T
+Interface,"GUI (SUSHI, Galaxy, Shiny), CLI",CLI,CLI,CLI,"CLI, GUI",CLI
+Input Data,"WGBS, RRBS, PBAT, TAPS, ABBS","WGBS, RRBS",WGBS,"WGBS, PBAT","WGBS, RRBS",Targeted BS
+Single-cell,T,F,F,T,F,F
+Bulk,T,F,F,T,F,F
+Supported genomes,"Mammals, Plants (incl. Polyploids)",General,Polyploids,"Mammals, Plants","Mammals, Plants",General
+Quality control,T,T,T,T,F,T
+Alignment,"Bismark, Arioc (GPU-based), EAGLE-RC","Bismark, bwa-meth","Bismark, EAGLE-RC",Bismark,F,Bowtie (Custom)
+Deduplication,Clumpify,"Bismark, Picard",Bismark,Bismark,F,"Custom
+
+"
+Exploratory data analysis,"PCA, heatmaps, methylation summaries",F,F,F,"PCA, heatmaps,
+methylation summaries",F
+Differential methylation analysis,"DMRs, DMLs",F,T,F,DMRs and DMGs,T
+Copy number variation analysis,T,F,F,F,F,F
+Functional analysis,"GO, Kegg, Reactome, user-defined",F,F,F,F,F
+Motif analysis,Homer,F,F,F,F,F
+Visualization,T,F,F,F,T,F
+Year published,In development,2020,2021,2020,2023,2018
