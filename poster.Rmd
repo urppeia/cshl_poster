@@ -44,7 +44,7 @@ font_family: "Arial"
 primary_colour: "#008080"  # Dark red 
 secondary_colour: "#0b4545"  # Darker red 
 # accent_colour: "#cc0000"
-accent_colour: "#5A0000"  # darker red
+accent_colour: "#cc0000"  # darker red
 body_bgcol: "#ffffff"
 body_textsize: "30px"
 body_textcol: "#000000"
@@ -60,7 +60,7 @@ sectitle_bgcol: "#0b4545"  # arker red
 sectitle_bordercol: "#0b4545"  # darker red
 sectitle_borderwidth: "1mm"
 sectitle_boxshape: "4mm 0mm"
-sectitle2_textcol: "#5A0000"
+sectitle2_textcol: "#0b4545"
 sectitle2_textsize: "35pt"
 poster_height: "1189mm"
 poster_width: "841mm"
